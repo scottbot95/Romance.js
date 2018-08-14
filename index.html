@@ -22,20 +22,20 @@
       <form id="inputForm">
         <h3>Settings</h3>
         Corpus Depth:<br>
-        <input type="number" name="depth" value="1" min="1" max="99"/><br>
+        <input type="number" name="depth" value="2" min="1" max="99"/><br>
         Minimum Words Per Line:<br>
         <input type="number" name="minLine" value="5" min="1" max="99"/><br>
         Maximum Words Per Line:<br>
         <input type="number" name="maxLine" value="8" min="1" max="99"/><br>
         Number of Lines:<br>
-        <input type="number" name="numLines" value="4" min="1" max="99"/><br>
+        <input type="number" name="numLines" value="6" min="1" max="99"/><br>
         Alphabetic Only:
         <input type="checkbox" name="alphabeticOnly" />
         <br>
         <h3>Input</h3>
         Text to ingest:
         <input type="button" onclick="clearContents()" value="Clear"/><br>
-        <textarea rows="4" cols="50" name="text" id="text'">Ever since I left the city, you, you, you You and me we just don't get along</textarea>
+        <textarea rows="4" cols="50" name="text" id="text'"></textarea>
         <div id="contentStatus"></div>
         <br>
         <input type="button" onclick="ingestText()" value="Ingest"/>
